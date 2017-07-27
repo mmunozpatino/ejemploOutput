@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+  tituloP = 'titulo que manda el padre';
+  bl: boolean;
+  emitir(b: boolean){
+    this.bl = b;
+  }
 }

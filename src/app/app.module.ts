@@ -3,9 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 
+import { HijoComponent } from './hijo.component';
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HijoComponent
   ],
   imports: [
     BrowserModule
